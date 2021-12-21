@@ -15,9 +15,10 @@ dataSet[dataSetVersion].options = [
       { name: "Hololive 3rd Generation", key: "3rd" },
       { name: "Hololive 4th Generation", key: "4th" },
       { name: "Hololive 5th Generation", key: "5th" },
-      { name: "Holostars", key: "Holostars" },
-      { name: "Hololive Indonesia", key: "Indonesia" },
-      { name: "Hololive English", key: "English" },
+      { name: "Holostars", key: "holostars" },
+      { name: "Hololive Indonesia", key: "indonesia" },
+      { name: "Hololive English", key: "english" },
+      { name: "Hololive China", key: "china" },
     ]
   },
   {
@@ -43,698 +44,708 @@ dataSet[dataSetVersion].options = [
     key: "nonjp",
     tooltip: "Check this to remove all songs from non-jp members.",
     checked: false
-  }
+  },
+  {
+    name: "Remove Former Members' Songs",
+    key: "former",
+    tooltip: "Check this to remove all songs from former members",
+    checked: false
 ];
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Hakurei Reimu",
-    img: "c5DqpgX.png",
+    name: "Airani Iofifteen- Bersama Ioforia",
+    img: "https://i.imgur.com/U5jfmrV.jpg",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["indonesia"]
     }
   },
   {
-    name: "Kirisame Marisa",
-    img: "tJnkSzK.png",
+    name: "Akai Haato - RED HEART",
+    img: "https://i.imgur.com/MN2R9kD.jpg",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4", "ex"]
+      solo: true ,
+      generation: ["1st"]
     }
   },
   {
-    name: "Rumia",
-    img: "0YT7QlS.png",
+    name: "Akai Haato - Infinity",
+    img: "https://i.imgur.com/JBFEP8D.jpg",
     opts: {
-      series: ["book", "EoSD", "StB", "HM"],
-      stage: ["st1"]
-    }
-  },
-  {
-    name: "Daiyousei",
-    img: "NWlZud3.png",
-    opts: {
-      series: ["book", "EoSD"],
-      stage: ["st2", "ex"],
-      nameless: true
+      solo: true ,
+      generation: ["1st"]
     },
   },
   {
-    name: "Cirno",
-    img: "qdveFSy.png",
+    name: "Aki Rosenthal - Nekoze Punch!!",
+    img: "https://i.imgur.com/kCiBo1a.jpg",
     opts: {
-      series: [ "book", "EoSD", "PCB", "PoFV", "StB", "soku", "GFW", "HM", "DDC", "ISC", "HSiFS" ],
-      stage: ["st2"]
+      solo: true ,
+      generation: ["1st"]
     }
   },
   {
-    name: "Hong Meiling",
-    img: "ptGp0x4.png",
+    name: "Aki Rosenthal - Chocolate Pandemic",
+    img: "https://i.imgur.com/HWJW46e.jpg",
     opts: {
-      series: ["book", "EoSD", "IaMP", "StB", "soku"],
-      stage: ["st3"]
+      solo: true ,
+      generation: ["1st"]
     }
   },
   {
-    name: "Koakuma",
-    img: "vBKdDm4.png",
+    name: "Aki Rosenthal - SHALLYS",
+    img: "https://i.imgur.com/ii4QTD0.jpg",
     opts: {
-      series: ["book", "EoSD"],
-      stage: ["st4"],
-      nameless: true
+      solo: true ,
+      generation: ["1st"]
     }
   },
   {
-    name: "Patchouli Knowledge",
-    img: "A7ZnuHo.png",
+    name: "Aki Rosenthal - Heroine Audition",
+    img: "",
     opts: {
-      series: ["book", "EoSD", "IaMP", "StB", "SWR", "soku", "HM"],
-      stage: ["st4", "ex"]
+      solo: true ,
+      generation: ["1st"]
     }
   },
   {
-    name: "Izayoi Sakuya",
-    img: "sgZPf11.png",
+    name: "Amane Kanata - Tokusya-Seizon Wonder-la-der!!",
+    img: "",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "soku", "HM", "DDC", "ISC", "UM" ],
-      stage: ["st5", "st6"]
+      solo: true ,
+      generation: ["4th"]
     }
   },
   {
-    name: "Remilia Scarlet",
-    img: "8UX7hKE.png",
+    name: "Arurandeisu - W.I.M",
+    img: "",
     opts: {
-      series: ["book", "EoSD", "IaMP", "IN", "StB", "SWR", "soku", "HM", "ISC", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      notgirl: true ,
+      generation: ["holostars"]
     }
   },
   {
-    name: "Flandre Scarlet",
-    img: "OhaDcnc.png",
+    name: "Astel Leda - Mirai Ginga to Kiteki no Melody",
+    img: "",
     opts: {
-      series: ["book", "EoSD", "StB", "VD"],
-      stage: ["ex"]
+      solo: true ,
+      notgirl: true ,
+      generation: ["holostars"]
     }
   },
   {
-    name: "Letty Whiterock",
-    img: "MgzqjFK.png",
+    name: "AZKi - Creating world",
+    img: "",
     opts: {
-      series: ["book", "PCB", "StB", "HM"],
-      stage: ["st1"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Chen",
-    img: "ohmetZh.png",
+    name: "AZKi - RealMelancholy",
+    img: "",
     opts: {
-      series: ["book", "PCB", "IaMP", "StB", "SWR", "soku", "HM"],
-      stage: ["st2", "ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Alice Margatroid",
-    img: "aDIf0pN.png",
+    name: "AZKi - Felicia",
+    img: "",
     opts: {
-      series: ["book", "PCB", "IaMP", "IN", "StB", "SWR", "soku", "HM"],
-      stage: ["st3"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Lily White",
-    img: "2Pr8b2N.png",
+    name: "AZKi - I can't control myself",
+    img: "",
     opts: {
-      series: ["book", "PCB", "PoFV", "HM", "HSiFS"],
-      stage: ["st4", "ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Lunasa Prismriver",
-    img: "htOMdDQ.png",
+    name: "AZKi - Hikari no Machi",
+    img: "",
     opts: {
-      series: ["book", "PCB", "PoFV", "HM", "AoCF"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Merlin Prismriver",
-    img: "PrRPujP.png",
+    name: "AZKi - Starry Regrets",
+    img: "",
     opts: {
-      series: ["book", "PCB", "PoFV", "HM", "AoCF"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Lyrica Prismriver",
-    img: "ze79bFC.png",
+    name: "AZKi - Fake.Fake.Fake",
+    img: "",
     opts: {
-      series: ["book", "PCB", "PoFV", "HM", "AoCF"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Konpaku Youmu",
-    img: "WMjyRLJ.png",
+    name: "AZKi - Inochi",
+    img: "",
     opts: {
-      series: [ "book", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "soku", "TD", "HM", "ISC", "WBaWC" ],
-      stage: ["st5", "st6"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Saigyouji Yuyuko",
-    img: "VT9mTGb.png",
+    name: "AZKi - Shit Days",
+    img: "",
     opts: {
-      series: [ "book", "PCB", "IaMP", "IN", "StB", "SWR", "soku", "TD", "HM", "ISC", "VD" ],
-      stage: ["st1", "st6"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Yakumo Ran",
-    img: "rshnJPV.png",
+    name: "AZKi - Sayonara Hero",
+    img: "",
     opts: {
-      series: ["book", "PCB", "IaMP", "IN", "StB", "SWR", "soku", "HM", "VD"],
-      stage: ["ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Yakumo Yukari",
-    img: "qsceD4I.png",
+    name: "AZKi - Heartbeat",
+    img: "",
     opts: {
-      series: [ "book", "PCB", "IaMP", "IN", "StB", "SWR", "soku", "HM", "ISC", "AoCF", "VD" ],
-      stage: ["ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Ibuki Suika",
-    img: "pLdMjQ3.png",
+    name: "AZKi - ERROR",
+    img: "",
     opts: {
-      series: ["book", "IaMP", "StB", "SWR", "soku", "DS", "HM", "ISC", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Wriggle Nightbug",
-    img: "8DLUAPf.png",
+    name: "AZKi - from A to Z",
+    img: "",
     opts: {
-      series: ["book", "IN", "StB", "HM"],
-      stage: ["st1"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Mystia Lorelei",
+    name: "AZKi - LiE, LiE, LiE, LiE",
     img: "6KyhLqE.png",
     opts: {
-      series: ["book", "IN", "PoFV", "StB", "HM"],
-      stage: ["st2"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kamishirasawa Keine",
-    img: "99w0Chm.png",
+    name: "AZKi - Sekai wa Meguri, Yagate Kimi No Mono ni Aru",
+    img: "",
     opts: {
-      series: ["book", "IN", "StB", "HM", "ISC"],
-      stage: ["st3", "ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Inaba Tewi",
-    img: "yqNfNje.png",
+    name: "AZKi - Frontier Locus",
+    img: "",
     opts: {
-      series: ["book", "IN", "PoFV", "StB", "HM"],
-      stage: ["st5"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Reisen Udongein Inaba",
-    img: "PrYzRcC.png",
+    name: "AZKi - Chiisana Kokoro ga Kimeta Koto",
+    img: "",
     opts: {
-      series: ["book", "IN", "PoFV", "StB", "soku", "HM", "LoLK", "AoCF"],
-      stage: ["st5"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Yagokoro Eirin",
-    img: "ceo4DhK.png",
+    name: "AZKi - without U",
+    img: "",
     opts: {
-      series: ["book", "IN", "StB", "HM", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Houraisan Kaguya",
-    img: "2YDuTk3.png",
+    name: "AZKi - Midnight Song",
+    img: "",
     opts: {
-      series: ["book", "IN", "StB", "HM", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Fujiwara no Mokou",
-    img: "3zo4VKV.png",
+    name: "AZKi - Ziko Allergies",
+    img: "",
     opts: {
-      series: ["book", "IN", "StB", "HM", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Shameimaru Aya",
-    img: "8TLXMST.png",
+    name: "AZKi - Nonbiri to,",
+    img: "",
     opts: {
-      series: [ "book", "PoFV", "StB", "SWR", "MoF", "soku", "HM", "ISC", "HSiFS" ],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Medicine Melancholy",
-    img: "IImsp7K.png",
+    name: "AZKi - Reflection",
+    img: "",
     opts: {
-      series: ["book", "PoFV", "StB", "HM"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kazami Yuuka",
-    img: "MZXJQq5.png",
+    name: "AZKi - Niji wo Kakenukete",
+    img: "",
     opts: {
-      series: ["book", "PoFV", "StB", "HM"],
-      stage: ["st5"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Onozuka Komachi",
-    img: "aX4WIH8.png",
+    name: "AZKi - kotonoha",
+    img: "",
     opts: {
-      series: ["book", "PoFV", "StB", "SWR", "soku", "HM"],
-      stage: ["st5"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Shiki Eiki, Yamaxanadu",
-    img: "nPBvatH.png",
+    name: "AZKi - Kurogane no Moribito",
+    img: "",
     opts: {
-      series: ["book", "PoFV", "StB", "HM", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Aki Shizuha",
-    img: "3pDRgvR.png",
+    name: "AZKi - Eternity Bright",
+    img: "",
     opts: {
-      series: ["MoF", "DS", "HM"],
-      stage: ["st1"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Aki Minoriko",
-    img: "bV0DaN7.png",
+    name: "AZKi - Hikari",
+    img: "",
     opts: {
-      series: ["MoF", "DS", "HM"],
-      stage: ["st1"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kagiyama Hina",
-    img: "J11NjNj.png",
+    name: "AZKi - Nero Naraba Ikeru",
+    img: "",
     opts: {
-      series: ["MoF", "DS", "HM"],
-      stage: ["st2"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kawashiro Nitori",
-    img: "4Ufced2.png",
+    name: "AZKi - Intersection",
+    img: "",
     opts: {
-      series: ["MoF", "DS", "HM", "ISC", "ULiL", "AoCF"],
-      stage: ["st3"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Inubashiri Momiji",
-    img: "qGMjnYk.png",
+    name: "AZKi - Take me to Heaven",
+    img: "",
     opts: {
-      series: ["MoF", "DS", "ISC"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kochiya Sanae",
-    img: "ATTRSWU.png",
+    name: "AZKi - Aoi Yume",
+    img: "",
     opts: {
-      series: ["MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "ISC", "LoLK", "UM"],
-      stage: ["st5", "ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Yasaka Kanako",
-    img: "nQ78Lz7.png",
+    name: "AZKi - in this world",
+    img: "",
     opts: {
-      series: ["MoF", "soku", "DS", "HM", "ISC", "VD"],
-      stage: ["st6", "ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Moriya Suwako",
-    img: "yJaD5ZV.png",
+    name: "AZKi - Hakkotai Solar Cycle",
+    img: "",
     opts: {
-      series: ["MoF", "SA", "soku", "DS", "HM", "ISC", "VD"],
-      stage: ["ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Nagae Iku",
-    img: "xgAlECj.png",
+    name: "AZKi - Yamanai Ame",
+    img: "",
     opts: {
-      series: ["SWR", "soku", "DS", "HM", "VD"],
-      stage: ["st5"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Hinanawi Tenshi",
-    img: "tZLYivt.png",
+    name: "AZKi - Rotate Repeated",
+    img: "",
     opts: {
-      series: ["SWR", "soku", "DS", "HM", "ISC", "AoCF", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kisume",
-    img: "VgJgaEf.png",
+    name: "AZKi - petal dance",
+    img: "",
     opts: {
-      series: ["SA", "DS"],
-      stage: ["st1"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kurodani Yamame",
-    img: "sqgJ2St.png",
+    name: "AZKi - Unmei no Arika",
+    img: "",
     opts: {
-      series: ["SA", "DS", "HM"],
-      stage: ["st1"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Mizuhashi Parsee",
-    img: "lkoAJod.png",
+    name: "AZKi - Saikyo x Saijaku Girl",
+    img: "",
     opts: {
-      series: ["SA", "DS", "HM"],
-      stage: ["st2"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Hoshiguma Yuugi",
-    img: "tDO653L.png",
+    name: "AZKi - nanawari enemy",
+    img: "",
     opts: {
-      series: ["SA", "DS", "HM"],
-      stage: ["st3"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Komeiji Satori",
-    img: "dup7Nt6.png",
+    name: "AZKi - Gamen no nakano kimi ga suki",
+    img: "",
     opts: {
-      series: ["SA", "DS", "HM", "VD"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kaenbyou Rin (Orin)",
-    img: "uQjbw1W.png",
+    name: "Civia - Lonely Christmas",
+    img: "",
     opts: {
-      series: ["SA", "DS", "HM"],
-      stage: ["st4", "st5", "st6"]
+      former: true ,
+      nonjp: true ,
+      solo: true ,
+      generation: ["china"]
     }
   },
   {
-    name: "Reiuji Utsuho (Okuu)",
-    img: "DfdaXPW.png",
+    name: "Gawr Gura - REFLECT",
+    img: "",
     opts: {
-      series: ["SA", "soku", "DS", "HM", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Komeiji Koishi",
-    img: "wVCcens.png",
+    name: "Hoshimachi Suisei - comet",
+    img: "",
     opts: {
-      series: ["SA", "DS", "HM", "ULiL", "AoCF", "VD"],
-      stage: ["ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Nazrin",
-    img: "EpHQbiY.png",
+    name: "Hoshimachi Suisei - Tenkyuu, Suisei wa yoru wo mataide",
+    img: "",
     opts: {
-      series: ["UFO", "DS", "HM"],
-      stage: ["st1", "st5"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Tatara Kogasa",
-    img: "kJbv4dc.png",
+    name: "Hoshimachi Suisei - NEXT COLOR PLANET",
+    img: "",
     opts: {
-      series: ["UFO", "TD", "DS", "HM"],
-      stage: ["st2", "ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kumoi Ichirin",
-    img: "Fyn5yVx.png",
+    name: "Hoshimachi Suisei - GHOST",
+    img: "",
     opts: {
-      series: ["UFO", "DS", "HM", "ULiL", "AoCF"],
-      stage: ["st3"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Murasa Minamitsu",
-    img: "39KYpvW.png",
+    name: "Hoshimachi Suisei - Bluerose",
+    img: "",
     opts: {
-      series: ["UFO", "DS", "HM"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Toramaru Shou",
-    img: "5yihisu.png",
+    name: "Hoshimachi Suisei - Kakero",
+    img: "",
     opts: {
-      series: ["UFO", "DS", "HM"],
-      stage: ["st5"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Hijiri Byakuren",
-    img: "2ppPxny.png",
+    name: "Hoshimachi Suisei - Jibunkatte Dazzling",
+    img: "",
     opts: {
-      series: ["UFO", "DS", "HM", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Houjuu Nue",
-    img: "zL4S8Mj.png",
+    name: "Hoshimachi Suisei - Bye Bye Rainy",
+    img: "",
     opts: {
-      series: ["UFO", "DS", "TD", "HM", "VD"],
-      stage: ["st4", "st6", "ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Himekaidou Hatate",
-    img: "LgvoTaJ.png",
+    name: "Hoshimachi Suisei - Stellar Stellar",
+    img: "",
     opts: {
-      series: ["DS", "HM", "ISC"],
-      stage: ["ex"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Sunny Milk",
-    img: "VbqXiB6.png",
+    name: "Hoshimachi Suisei - Andromeda",
+    img: "",
     opts: {
-      series: ["book", "GFW", "HM"],
-      stage: ["st1", "st2", "st3"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Luna Child",
-    img: "OBqgP48.png",
+    name: "Hoshimachi Suisei - Je t'aime",
+    img: "",
     opts: {
-      series: ["book", "GFW", "HM"],
-      stage: ["st1", "st2", "st3"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Star Sapphire",
-    img: "sNw61ap.png",
+    name: "Hoshimachi Suisei - Starry Jet",
+    img: "",
     opts: {
-      series: ["book", "GFW", "HM"],
-      stage: ["st1", "st2", "st3"]
+      solo: true ,
+      generation: ["0th"]
     }
   },
   {
-    name: "Kasodani Kyouko",
-    img: "sLiqEBA.png",
+    name: "Houshou Marine - Ahoy!! Warera Houshou Kaizoku-dan☆",
+    img: "",
     opts: {
-      series: ["TD", "HM", "ISC"],
-      stage: ["st2"]
+      solo: true ,
+      generation: ["3rd"]
     }
   },
   {
-    name: "Miyako Yoshika",
-    img: "6jq6eh6.png",
+    name: "Houshou Marine - Unison",
+    img: "",
     opts: {
-      series: ["TD", "HM", "ISC"],
-      stage: ["st3", "st4"]
+      solo: true ,
+      generation: ["3rd"]
     }
   },
   {
-    name: "Kaku Seiga",
-    img: "090hLPL.png",
+    name: "Inugami Korone - Saikyo Tensai★Wonderful♡World of Korone ",
+    img: "",
     opts: {
-      series: ["TD", "HM", "ISC"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["GAMERS"]
     }
   },
   {
-    name: "Soga no Tojiko",
-    img: "y0UXwFO.png",
+    name: "IRyS - Caesura of Despair",
+    img: "",
     opts: {
-      series: ["TD", "HM"],
-      stage: ["st5"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Mononobe no Futo",
-    img: "WTZ97LE.png",
+    name: "IRyS - diorama",
+    img: "",
     opts: {
-      series: ["TD", "HM", "ISC", "ULiL", "AoCF"],
-      stage: ["st5"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
+    } 
+  },
+  {
+    name: "IRyS - HERE COMES HOPE",
+    img: "",
+    opts: {
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
+    } 
+  },
+  {
+    name: "Kanade Izuru - Monologue in a Row",
+    img: "",
+    opts: {
+      solo: true ,
+      notgirl: true ,
+      generation: ["holostars"]
     }
   },
   {
-    name: "Toyosatomimi no Miko",
-    img: "3Xiqd22.png",
+    name: "Kanade Izuru - Crash!",
+    img: "",
     opts: {
-      series: ["TD", "HM", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      notgirl: true ,
+      generation: ["holostars"]
     }
   },
   {
-    name: "Futatsuiwa Mamizou",
-    img: "gMpWdmA.png",
+    name: "Kiryu Coco - Weather Hackers☆",
+    img: "",
     opts: {
-      series: ["TD", "HM", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["ex"]
+      solo: true ,
+      former: true ,
+      generation: ["4th"]
     }
   },
   {
-    name: "Hata no Kokoro",
-    img: "fxCGmUk.png",
+    name: "Kishido Temma - ShootingStar",
+    img: "",
     opts: {
-      series: ["book", "HM", "ULiL", "AoCF"],
-      stage: ["st6"]
+      solo: true ,
+      notgirl: true ,
+      generation: ["holostars"]
     }
   },
   {
-    name: "Wakasagihime",
-    img: "brWCLVx.png",
+    name: "Kureiji Ollie - Aniki he",
+    img: "",
     opts: {
-      series: ["DDC", "ISC"],
-      stage: ["st1"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["indonesia"]
     }
   },
   {
-    name: "Sekibanki",
-    img: "VAMLiJD.png",
+    name: "Minato Aqua - For The Win",
+    img: "",
     opts: {
-      series: ["DDC", "ISC"],
-      stage: ["st2"]
+      solo: true ,
+      generation: ["2nd"]
     }
   },
   {
-    name: "Imaizumi Kagerou",
-    img: "qwwL0bB.png",
+    name: "Minato Aqua - #AquaIroPalette",
+    img: "",
     opts: {
-      series: ["DDC", "ISC"],
-      stage: ["st3"]
+      solo: true ,
+      generation: ["2nd"]
     }
   },
   {
-    name: "Tsukumo Benben",
-    img: "vWNeMaH.png",
+    name: "Minato Aqua - Youkoso! Sweet Carnival",
+    img: "",
     opts: {
-      series: ["DDC", "ISC"],
-      stage: ["st4", "ex"]
+      solo: true ,
+      generation: ["2nd"]
     }
   },
   {
-    name: "Tsukumo Yatsuhashi",
-    img: "EJFQHQN.png",
+    name: "Minato Aqua - Kaisou Ressha",
+    img: "",
     opts: {
-      series: ["DDC", "ISC"],
-      stage: ["st4", "ex"]
+      solo: true ,
+      generation: ["2nd"]
     }
   },
   {
-    name: "Kijin Seija",
-    img: "16RUacj.png",
+    name: "Minato Aqua - aqua iro palette",
+    img: "",
     opts: {
-      series: ["DDC", "ISC"],
-      stage: ["st5", "st6"]
+      solo: true ,
+      generation: ["2nd"]
     }
   },
   {
-    name: "Sukuna Shinmyoumaru",
-    img: "Zl2tN7W.png",
+    name: "Minato Aqua - Kira Kira",
+    img: "",
     opts: {
-      series: ["DDC", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["2nd"]
     }
   },
   {
-    name: "Horikawa Raiko",
-    img: "SLLEccR.png",
+    name: "Momosuzu Nene - NENENENENENENENE! DAIBAKUSOU",
+    img: "",
     opts: {
-      series: ["DDC", "ISC", "AoCF", "VD"],
-      stage: ["ex"]
+      solo: true ,
+      generation: ["5th"]
     }
   },
   {
-    name: "Usami Sumireko",
-    img: "mc7ICW6.png",
+    name: "Momosuzu Nene - Lunch with me",
+    img: "",
     opts: {
-      series: ["ULiL", "AoCF", "VD"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["5th"]
     }
   },
   {
-    name: "Seiran",
-    img: "0ra00WG.png",
+    name: "Momosuzu Nene - momonone",
+    img: "",
     opts: {
-      series: ["LoLK", "VD"],
-      stage: ["st1"]
+      solo: true ,
+      generation: ["5th"]
     }
   },
   {
-    name: "Ringo",
-    img: "xQOsFlZ.png",
+    name: "Moona Hoshinova - Ai no Chiisana Uta",
+    img: "",
     opts: {
-      series: ["LoLK", "VD"],
-      stage: ["st2"]
-    }
-  },
-  {
-    name: "Doremy Sweet",
-    img: "rGS7dyn.png",
-    opts: {
-      series: ["LoLK", "AoCF", "VD"],
-      stage: ["st3", "ex"]
-    }
-  },
-  {
-    name: "Kishin Sagume",
-    img: "HLT338X.png",
-    opts: {
-      series: ["LoLK", "VD"],
-      stage: ["st4"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["indonesia"]
     }
   },
   {
