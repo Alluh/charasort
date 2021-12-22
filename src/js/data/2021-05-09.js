@@ -749,187 +749,200 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Clownpiece",
-    img: "9Jje7ZQ.jpg",
+    name: "Mori Calliope - Excuse My Rudeness, But Could You Please RIP?",
+    img: "",
     opts: {
-      series: ["LoLK", "VD"],
-      stage: ["st5"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Junko",
-    img: "NsfLZjY.jpg",
+    name: "Mori Calliope - Reaper or Rapper? Self Introduction rap",
+    img: "",
     opts: {
-      series: ["LoLK", "VD"],
-      stage: ["st6", "ex"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Hecatia Lapislazuli",
-    img: "EH3Ulol.png",
+    name: "Mori Calliope - DEAD BEATS",
+    img: "",
     opts: {
-      series: ["LoLK", "VD"],
-      stage: ["ex"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Eternity Larva",
-    img: "ql5KxJH.png",
+    name: "Mori Calliope - Live Again",
+    img: "",
     opts: {
-      series: ["HSiFS", "VD"],
-      stage: ["st1"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Sakata Nemuno",
-    img: "gYFhJ3Y.png",
+    name: "Mori Calliope - Cursed Night",
+    img: "",
     opts: {
-      series: ["HSiFS", "VD"],
-      stage: ["st2"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Komano Aunn",
-    img: "wWUStkF.png",
+    name: "Mori Calliope - Off With Their Heads",
+    img: "",
     opts: {
-      series: ["HSiFS", "VD"],
-      stage: ["st3"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Yatadera Narumi",
-    img: "wrPVhAo.png",
+    name: "Mori Calliope - Ibasho",
+    img: "",
     opts: {
-      series: ["HSiFS", "VD"],
-      stage: ["st4"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Nishida Satono",
-    img: "8w9gAy2.png",
+    name: "Mori Calliope - Red",
+    img: "",
     opts: {
-      series: ["HSiFS", "VD"],
-      stage: ["st5"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Teireida Mai",
-    img: "DesAqAC.png",
+    name: "Mori Calliope - The Grimp Reaper is a Live-Streamer",
+    img: "",
     opts: {
-      series: ["HSiFS", "VD"],
-      stage: ["st5"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Matara Okina",
-    img: "icWvMyo.png",
+    name: "Mori Calliope - IJIMEKKO BULLY",
+    img: "",
     opts: {
-      series: ["HSiFS", "VD"],
-      stage: ["st6", "ex"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Yorigami Shion",
-    img: "LenxXR4.png",
+    name: "Mori Calliope - guh",
+    img: "",
     opts: {
-      series: ["AoCF"],
-      stage: ["st6"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Yorigami Joon",
-    img: "V9OznT1.png",
+    name: "Mori Calliope - Dawn Blue",
+    img: "",
     opts: {
-      series: ["AoCF"],
-      stage: ["st6"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Ebisu Eika",
-    img: "Ke3316E.png",
+    name: "Mori Calliope - end of a life",
+    img: "",
     opts: {
-      series: ["WBaWC"],
-      stage: ["st1"]
+      solo: true ,
+      nonjp: true ,
+      generation: ["english"]
     }
   },
   {
-    name: "Ushizaki Urumi",
-    img: "ru2vIIW.png",
+    name: "Murasaki Shion - Mage of Violet",
+    img: "",
     opts: {
-      series: ["WBaWC"],
-      stage: ["st2"]
+      solo: true ,
+      generation: ["2nd"]
     }
   },
   {
-    name: "Niwatari Kutaka",
-    img: "QTQt0ZL.png",
+    name: "Nakiri Ayame - Yoi no Yo, Yoi!",
+    img: "",
     opts: {
-      series: ["WBaWC"],
-      stage: ["st3"]
+      solo: true ,
+      generation: ["2nd"]
     }
   },
   {
-    name: "Kicchou Yachie",
-    img: "CzcIMxF.png",
+    name: "Natsuiro Matsuri - Kimi to Nagameru Natsu no Hana",
+    img: "",
     opts: {
-      series: ["WBaWC"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["1st"]
     }
   },
   {
-    name: "Joutouguu Mayumi",
-    img: "GxeziYO.png",
+    name: "Natsuiro Matsuri - Hi Hi High Tension!",
+    img: "",
     opts: {
-      series: ["WBaWC"],
-      stage: ["st5"]
+      solo: true ,
+      generation: ["1st"]
     }
   },
   {
-    name: "Haniyasushin Keiki",
-    img: "Z4jclTi.png",
+    name: "Nekomata Okayu - MOGU MOGU YUMMY!",
+    img: "",
     opts: {
-      series: ["WBaWC"],
-      stage: ["st6"]
+      solo: true ,
+      generation: ["GAMERS"]
     }
   },
   {
-    name: "Kurokoma Saki",
-    img: "H2v2GPy.png",
+    name: "Omaru Polka - Hologram Circus",
+    img: "",
     opts: {
-      series: ["WBaWC"],
-      stage: ["ex"]
+      solo: true ,
+      generation: ["5th"]
     }
   },
   {
-    name: "Goutokuji Mike",
-    img: "FltSdtv.png",
+    name: "Omaru Polka - Magical☆Tokki Theme Song",
+    img: "",
     opts: {
-      series: ["UM"],
-      stage: ["st1"]
+      solo: true ,
+      generation: ["5th"]
     }
   },
   {
-    name: "Yamashiro Takane",
-    img: "Aaq99GQ.png",
+    name: "Omaru Polka - Po",
+    img: "",
     opts: {
-      series: ["UM"],
-      stage: ["st2"]
+      solo: true ,
+      generation: ["5th"]
     }
   },
   {
-    name: "Komakusa Sannyo",
-    img: "DKupiv1.png",
+    name: "Omaru Polka - EverBlue",
+    img: "",
     opts: {
-      series: ["UM"],
-      stage: ["st3"]
+      solo: true ,
+      generation: ["5th"]
     }
   },
   {
-    name: "Tamatsukuri Misumaru",
-    img: "BHwfCAQ.png",
+    name: "Omaru Polka - Pastel Tea Time",
+    img: "",
     opts: {
-      series: ["UM"],
-      stage: ["st4"]
+      solo: true ,
+      generation: ["5th"]
     }
   },
   {
